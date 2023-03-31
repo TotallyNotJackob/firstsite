@@ -1,0 +1,46 @@
+.greenback_yellowfont {
+    background-color: green;
+    color: yellow;
+}
+
+.blueback_redfont {
+    background-color: blue;
+    color: red;
+}
+
+.blackback_whitefont {
+    background-color: black;
+    color: white;
+}
+
+.hr_div {
+    height: 1px;
+    background-color: black;
+}
+
+.title_text {
+    text-align: center;
+    font-family: monospace;
+}
+
+.car_img {
+    width: 600px;
+    height: 320px;
+}
+
+.row {
+    display: flex;
+}
+  
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+body {
+    background-image: radial-gradient(rgb(220, 160, 0), rgb(220, 0, 0));
+}
+
+li {
+    text-align: left;
+}

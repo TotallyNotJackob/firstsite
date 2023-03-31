@@ -1,0 +1,176 @@
+<html>
+
+<head>
+    <title>Jack's first site</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+            padding: 5px;
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body style="text-shadow: 1px 1px rgb(60, 60, 60);">
+    <header style="font-size: x-large;">
+        <h1 style="text-align: center" id="TopOfSite">Jack's first site</h1>
+    </header>
+
+    <div class="hr_div" style="height: 2px;"></div>
+
+    <!--Welcome section-->
+    <div style="text-align: center;">
+        <h1 class="title_text">Welcome!</h1>
+        <p>
+            This is my first site using <b>HTML5</b>. <br>
+            I will try to make my own website and host it on a <mark>free hosting service</mark>.
+        </p>
+
+        <p>
+            My favourite game is <b>Need for Speed: Most Wanted (2012)</b>, <br>
+            I really like it! Here is a picture: <br>
+            <img src="https://cdn.ndtv.com/tech/gadgets/nfs_mw_criterion.jpg" width="400" height="225"
+            alt="Need for Speed: Most Wanted 2012 image" border="2">
+        </p>
+    </div>
+
+    <div class="hr_div"></div>
+
+    <!--Everything else-->
+    <div style="text-align: center;">
+        <!--Text stuff-->
+        <h1 class="title_text">Cool text stuff</h1>
+        <p>
+            <pre>This is a     <b>preserved</b>      paragraph.</pre> This is <mark>NOT</mark> a    <b>preserved</b>      paragraph. Pretty cool huh?<br>
+            This is what <sup>superscript</sup> and <sub>subscript</sub> looks like.<br>
+            Something else is <small>small text</small>, <del>striked text</del> and <ins>underlined text</ins>, it is useful but not neccessary.<br>
+            You can also use <b>qotes</b>: <q>This is a quote</q> or <b>blockqotes</b>: <blockquote>This is a blockqote</blockquote><br>
+            There also is this thing called <b>adress</b> <br>
+            <address>
+                Adress: <br>
+                Some apartment building<br>
+                Somewhere in the Czech Republic
+            </address> <br>
+            So there is that. But did you also know that there are <b>acronyms</b> or <b>abbreviations</b> in <abbr title="Hyper Text Markup Language">HTML</abbr>? (just hover over the text for a second)<br>
+            Anyways there is also <b>bidirectional</b> text: <bdo dir="rtl">Like this!</bdo>.<br>
+            Nevertheless <cite>GeeksForGeeks</cite> was useful for the basics. (I just used the <i>cite</i> element to define a title of a work!)<br>
+        </p>
+
+        <p>
+            <span class="greenback_yellowfont">This paragraph has a dark green background and yellow text!</span>
+        </p>
+
+        <p>
+            <span class="blueback_redfont">This is so cool!</span>
+        </p>
+
+        <p>
+            <span class="blackback_whitefont">Its white on black. (that sentence is not racist as it is reffering to the white text on the black background)</span>
+        </p>
+
+        <div class="hr_div"></div>
+        <!--Link stuff-->
+        <h1 class="title_text">Link magic</h1>
+        <p>
+            How about an <b>external link</b>? Sure thing! <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" style="color: red;">Click here to get rick-rolled</a><br>
+            And an <b>internal link</b>? Oh yeah. <a href="internal_site.html" style="color: blue;">Internal site</a><br>
+            <a href="internal_site.html" target="_blank">This</a> will open the internal site <mark>on a new tab</mark> <br>
+            <a href="internal_site.html" target="_self">This</a> will open the internal site <mark>on the same tab</mark><br>
+            <i>(You can also change the colors of these links)</i>
+        </p>
+
+        <p>
+            This image will take you to wikipedia:
+            <a href="https://en.wikipedia.org/wiki/Main_Page" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/150px-Wikipedia-logo-v2.svg.png"
+                style="width:60px; height:60px;" title="Wikipedia">
+            </a>
+        </p>
+
+        <p>
+            Check this out, you can download a hello.txt file <a href="assets/hello.txt" target="_blank" download>here</a>!
+        </p>
+
+        <p>
+            Here is a spinning earth gif I got from wikipedia:<br>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Rotating_earth_%28large%29_transparent.gif" 
+            alt="Earth spinning gif" width="200" height="200">
+        </p>
+
+        <div class="hr_div"></div>
+        <!--About me-->
+        <h1 class="title_text">About me</h1>
+        <p>
+            
+            <table style="margin-left: auto; margin-right: auto;">
+                <caption><b style="font-size: larger;">Some stuff</b></caption>
+                <tr>
+                    <th>Name</th>
+                    <th>Country of origin</th>
+                    <th>Net worth</th>
+                    <th>Brain cells</th>
+                </tr>
+                <tr>
+                    <td>Jackob</td>
+                    <td>Czech Republic</td>
+                    <td>Eh about $600</td>
+                    <td>10</td>
+                </tr>
+            </table>
+            <br>Pretty cool table, am I right?
+        </p>
+
+        <p>
+            <h4>Programming languages I know:</h4>
+            <ul style="line-height: 90%; display: inline-block; margin-top: -10px;">
+                <li>Python</li>
+                <li>A bit of Lua</li>
+                <li>Learning HTML</li>
+                <li>Learning CSS</li>
+            </ul>
+            <br>
+            Wonderful, an unordered list! What about an ordered one? Coming right up:<br>
+            <h4>Languages I know:</h4>
+            <ol style="line-height: 90%; display: inline-block; margin-top: -10px;">
+                <li>Czech</li>
+                <li>English</li>
+                <li>German (only a bit)</li>
+            </ol>
+        </p>
+    </div>
+
+    <div class="hr_div"></div>
+
+    <div style="text-align: center;">
+        <!--Car thing-->
+        <h1 class="title_text">~ ~ Japan cars, my beloved ~ ~</h1>
+        <p>
+            <div class="row">
+                <div class="column">
+                    <h2>Toyota Supra Mk4</h2>
+                    <i>IS THAT A SUPRA?</i><br>
+                    <img src="assets/supramk4.jpg" alt="supramk4" class="car_img" style="margin-top: 10px;">
+                </div>
+                <div class="column">
+                    <h2>Toyota AE86</h2>
+                    <i>Drift king</i><br>
+                    <img src="assets/ae86.jpg" alt="ae86" class="car_img" style="margin-top: 10px;">
+                </div>
+                <div class="column">
+                    <h2>Nissan Skyline GT-R</h2>
+                    <i>Sutututututu</i><br>
+                    <img src="assets/skylineGTR.jpg" alt="skylineGTR" class="car_img" style="margin-top: 10px;">
+                </div>
+            </div>    
+        </p>
+    </div>
+
+    <div class="hr_div" style="margin-top: 150; height: 2;"></div>
+    <footer style="text-align: center; margin-top: 15;"><b>This is the end of my site... Jump to the top <a href="fake_top_site.html">here</a></b> or 
+        <b><a href="#TopOfSite">here</a></b>?</footer>
+
+</body>
+
+</html>
